@@ -29,9 +29,7 @@ export function NewsCard({ title, date, excerpt, imageSrc }: NewsCardProps) {
         </div>
         <h3 className="text-lg font-bold text-gray-900 mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{excerpt}</p>
-        <Link href="/news" className="inline-flex items-center text-teal-600 hover:text-teal-800">
-          Read more
-        </Link>
+       
       </div>
     </motion.div>
   )

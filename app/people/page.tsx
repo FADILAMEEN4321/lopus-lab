@@ -9,7 +9,7 @@ export const metadata = {
 export default function PeoplePage() {
   // Group people by their category
   const facultyMembers = peopleData.filter((person) => person.category === "faculty")
-  const postdocs = peopleData.filter((person) => person.category === "postdoc")
+  const GratuatedCoguided = peopleData.filter((person) => person.category === "gratuated/co-guided")
   const phdStudents = peopleData.filter((person) => person.category === "phd")
   const masters = peopleData.filter((person) => person.category === "masters")
   const undergrads = peopleData.filter((person) => person.category === "undergrad")
@@ -42,11 +42,11 @@ export default function PeoplePage() {
       </section>
 
       {/* Postdoctoral Researchers */}
-      {postdocs.length > 0 && (
+      {GratuatedCoguided.length > 0 && (
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Postdoctoral Researchers</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Gratuated/Co-guided</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {postdocs.map((person) => (
+            {GratuatedCoguided.map((person) => (
               <TeamMemberCard
                 key={person.id}
                 name={person.name}

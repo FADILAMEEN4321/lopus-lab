@@ -154,8 +154,7 @@ export default function Home() {
         <div className="container px-4 mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Join Our Team</h2>
           <p className="max-w-2xl mx-auto text-lg mb-8">
-            We're always looking for talented researchers and students to join our lab. Check out our open positions and
-            application process.
+            We're always looking for talented researchers and students to join our lab. Check out our open positions.
           </p>
           <Button asChild size="lg" className="bg-white text-teal-900 hover:bg-gray-100">
             <Link href="/contact#open-positions">View Open Positions</Link>

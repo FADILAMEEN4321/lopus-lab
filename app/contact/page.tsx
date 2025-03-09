@@ -2,36 +2,11 @@
 
 import type React from "react"
 
-import { useState } from "react"
 import { MapPin, Mail, Phone, Send } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+import { Map } from "@/components/map"
 import { openPositionsData } from "@/data/open-positions"
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  })
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
-  }
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In a real application, you would send this data to your backend
-    console.log("Form submitted:", formData)
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" })
-    // Show success message
-    alert("Thank you for your message. We will get back to you soon!")
-  }
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -52,11 +27,11 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-gray-900">Address</h3>
                 <p className="text-gray-600">
-                  School of Biological Sciences
+                School of Biological Sciences, UM-DAE CEBS,
                   <br />
-                  University Campus
+                  Kalina, Santacruz East,
                   <br />
-                  City, State, ZIP
+                  Mumbai - 400098
                 </p>
               </div>
             </div>
@@ -66,69 +41,30 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-semibold text-gray-900">Email</h3>
                 <p className="text-gray-600">
-                  <a href="mailto:info@lopuslab.edu" className="hover:text-teal-600">
-                    info@lopuslab.edu
+                  <a href="mailto:manu.lopus@cbs.ac.in" className="hover:text-teal-600">
+                  manu.lopus@cbs.ac.in
                   </a>
                 </p>
               </div>
             </div>
 
-            <div className="flex items-start">
-              <Phone className="h-6 w-6 mr-3 text-teal-600 mt-1" />
-              <div>
-                <h3 className="font-semibold text-gray-900">Phone</h3>
-                <p className="text-gray-600">(123) 456-7890</p>
-              </div>
-            </div>
+  
           </div>
 
-          <div className="mt-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Location</h2>
+          
+
+        </div>
+
+        <div className="">
             <div className="h-80 w-full rounded-lg overflow-hidden shadow-md">
               {/* In a real application, you would embed a Google Map here */}
-              <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                <p className="text-gray-600">Map will be displayed here</p>
-              </div>
+              <div id="map" className="h-80 w-full rounded-lg overflow-hidden shadow-md">
+              <Map />
+            </div>
             </div>
           </div>
-        </div>
 
-        <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
-
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div className="grid gap-2">
-              <Label htmlFor="name">Name</Label>
-              <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
-            </div>
-
-            <div className="grid gap-2">
-              <Label htmlFor="email">Email</Label>
-              <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
-            </div>
-
-            <div className="grid gap-2">
-              <Label htmlFor="subject">Subject</Label>
-              <Input id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
-            </div>
-
-            <div className="grid gap-2">
-              <Label htmlFor="message">Message</Label>
-              <Textarea
-                id="message"
-                name="message"
-                rows={5}
-                value={formData.message}
-                onChange={handleChange}
-                required
-              />
-            </div>
-
-            <Button type="submit" className="w-full bg-teal-600 hover:bg-teal-700">
-              <Send className="mr-2 h-4 w-4" /> Send Message
-            </Button>
-          </form>
-        </div>
+        
       </div>
 
       <div id="open-positions" className="pt-8">
@@ -157,7 +93,7 @@ export default function ContactPage() {
                   </div>
                 )}
 
-                <Button className="w-full bg-teal-600 hover:bg-teal-700">Apply Now</Button>
+               
               </div>
             ))}
           </div>
