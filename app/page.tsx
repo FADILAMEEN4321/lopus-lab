@@ -104,7 +104,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {
               researchData.slice(0, 3).map((research, index) => (
-                <ResearchHighlight
+              <ResearchHighlight
+              key={index}
               title={research.title}
               description={research.description?.[0]}
               imageSrc={research.imageSrc}
