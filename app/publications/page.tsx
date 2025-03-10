@@ -38,7 +38,7 @@ export default function PublicationsPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">{year}</h2>
             <div className="space-y-8">
               {publicationsByYear[year].map((publication, index) => (
-                <div key={index} className="flex flex-col md:flex-row gap-6 bg-white rounded-lg shadow-md p-6">
+                <div key={index} className="flex flex-col md:flex-row gap-6 bg-white rounded-lg shadow-md p-2">
                     <p className="text-gray-700">{publication.title}</p>
                 </div>
               ))}
