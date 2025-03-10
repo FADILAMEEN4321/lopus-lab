@@ -5,9 +5,7 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ResearchHighlight } from "@/components/research-highlight"
-import { TeamMemberCard } from "@/components/team-member-card"
-import { PublicationCard } from "@/components/publication-card"
-import { NewsCard } from "@/components/news-card"
+import { InfiniteScrollNews} from "@/components/infinite-scroll-news"
 import { motion } from "framer-motion"
 import { researchData } from "@/data/research"
 
@@ -123,24 +121,11 @@ export default function Home() {
       </section>
 
 
-      {/* Recent Publications */}
+      {/* Recent News */}
       <section className="py-16 bg-gray-50">
         <div className="container px-4 mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Latest News</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <NewsCard
-              title="Lopus Lab receives $2.5M NIH grant"
-              date="March 1, 2023"
-              excerpt="Our lab has been awarded a significant grant to further our research on nanomedicine approaches to neurodegenerative diseases."
-              imageSrc="/placeholder.svg?height=300&width=500"
-            />
-            <NewsCard
-              title="Lopus Lab receives $2.5M NIH grant"
-              date="March 1, 2023"
-              excerpt="Our lab has been awarded a significant grant to further our research on nanomedicine approaches to neurodegenerative diseases."
-              imageSrc="/placeholder.svg?height=300&width=500"
-            />
-          </div>
+          <InfiniteScrollNews/>
           <div className="mt-12 text-center">
           <Button asChild variant="outline" className="border-teal-600 text-teal-600 hover:bg-teal-50">
               <Link href="/news">Read All News</Link>

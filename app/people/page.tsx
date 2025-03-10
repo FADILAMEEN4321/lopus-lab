@@ -10,10 +10,8 @@ export default function PeoplePage() {
   // Group people by their category
   const facultyMembers = peopleData.filter((person) => person.category === "faculty")
   const GratuatedCoguided = peopleData.filter((person) => person.category === "gratuated/co-guided")
-  const phdStudents = peopleData.filter((person) => person.category === "phd")
-  const masters = peopleData.filter((person) => person.category === "masters")
-  const undergrads = peopleData.filter((person) => person.category === "undergrad")
-  const staff = peopleData.filter((person) => person.category === "staff")
+  const PostDoctorals = peopleData.filter((person) => person.category === "Postdoctoral")
+  const ProjectStudents = peopleData.filter((person) => person.category === "Project Students")
   const alumni = peopleData.filter((person) => person.category === "alumni")
 
   return (
@@ -60,11 +58,11 @@ export default function PeoplePage() {
       )}
 
       {/* PhD Students */}
-      {phdStudents.length > 0 && (
+      {PostDoctorals.length > 0 && (
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">PhD Students</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Postdoctoral Fellows trained in the Lab</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {phdStudents.map((person) => (
+            {PostDoctorals.map((person) => (
               <TeamMemberCard
                 key={person.id}
                 name={person.name}
@@ -78,76 +76,26 @@ export default function PeoplePage() {
       )}
 
       {/* Masters Students */}
-      {masters.length > 0 && (
+      
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Masters Students</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {masters.map((person) => (
-              <TeamMemberCard
-                key={person.id}
-                name={person.name}
-                role={person.title}
-                imageSrc={person.imageSrc}
-                id={person.id}
-              />
-            ))}
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Project Students</h2>
+          <div className="">
+            <p className="text-lg font-semibold text-gray-900">Samridhi, Anisha, Bhadra, Greeshma</p>
           </div>
         </section>
-      )}
-
-      {/* Undergraduate Students */}
-      {undergrads.length > 0 && (
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Undergraduate Students</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {undergrads.map((person) => (
-              <TeamMemberCard
-                key={person.id}
-                name={person.name}
-                role={person.title}
-                imageSrc={person.imageSrc}
-                id={person.id}
-              />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Staff */}
-      {staff.length > 0 && (
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Staff</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {staff.map((person) => (
-              <TeamMemberCard
-                key={person.id}
-                name={person.name}
-                role={person.title}
-                imageSrc={person.imageSrc}
-                id={person.id}
-              />
-            ))}
-          </div>
-        </section>
-      )}
+ 
 
       {/* Alumni */}
-      {alumni.length > 0 && (
+     
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Alumni</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            {alumni.map((person) => (
-              <TeamMemberCard
-                key={person.id}
-                name={person.name}
-                role={person.title}
-                imageSrc={person.imageSrc}
-                id={person.id}
-              />
-            ))}
+          <div className="">
+           
+          <p className="text-lg font-semibold text-gray-900">Mushakn Sharma, Rakshita Madammaki, Athira CA, Ananya Sachdev, Swati Sudipta, Mr. Prasad Mohite, Ms Akansha Shah,  Ms. Shefali Gedam, Dr Grace Nirmala, Mr Sujith Remulla, Mr Mohammed Nisham,  Ms Ankita Gupta, Mr Ashish Beck, Ms. Nayana Nambiar, Ms. Tejashree Mahaddalkar, Dr. Sanith C, Dr. Madhura Pradhan, Mr. Abhishek Howlader,  Mr. Swagat Pradhan, Ms. Neha Mohanpuria, Mr. Chaitanya Krishna, Ms. Sailee Lavekar</p>
+
           </div>
         </section>
-      )}
+
     </div>
   )
 }
