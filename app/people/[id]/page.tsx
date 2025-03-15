@@ -44,7 +44,7 @@ export default function PersonPage({ params }: PersonPageProps) {
         <div className="md:col-span-1">
           <div className="sticky top-24">
             <div className="relative h-80 w-full rounded-xl overflow-hidden shadow-lg mb-6">
-              <Image src={person.imageSrc || "/placeholder.svg"} alt={person.name} fill className="object-cover" />
+              <Image src={person.imageSrc || "/placeholder.svg"} alt={person.name} fill className="object-cover object-top" />
             </div>
 
             <h1 className="text-3xl font-bold text-gray-900 mb-2">{person.name}</h1>

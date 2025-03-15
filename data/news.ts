@@ -44,14 +44,6 @@ export const newsData = [
       "We are proud to announce that Sarah Johnson, a PhD student in the Lopus Lab, has won the Best Poster Award at the Annual Biomedical Engineering Conference held last week. Sarah's poster, titled \"Engineered nanoparticles for drug delivery across the blood-brain barrier,\" showcased her innovative work on developing targeted delivery systems for neurological disorders.\n\nThe judges were particularly impressed by the interdisciplinary nature of Sarah's research, which combines principles from materials science, chemistry, and neurobiology. They also noted the potential clinical impact of her work for patients with neurodegenerative diseases.\n\n\"I'm honored to receive this recognition for my research,\" said Sarah. \"This project has been challenging but incredibly rewarding, and I'm grateful for the mentorship and support I've received from Dr. Lopus and everyone in the lab.\"\n\nSarah's award includes a $1,000 research grant and an invitation to present her work at next year's conference plenary session.",
     imageSrc: "/placeholder.svg?height=400&width=600",
   },
-  {
-    title: "Lab welcomes new postdoctoral researcher",
-    date: "October 1, 2022",
-    excerpt:
-      "We are pleased to welcome Dr. Emily Patel to the Lopus Lab as a new postdoctoral researcher. Dr. Patel brings expertise in cancer biology and drug resistance mechanisms.",
-    content:
-      'The Lopus Lab is delighted to welcome Dr. Emily Patel as our newest postdoctoral researcher. Dr. Patel recently completed her PhD in Pharmaceutical Sciences at the University of Toronto, where her research focused on understanding and overcoming drug resistance in cancer cells.\n\nAt Lopus Lab, Dr. Patel will lead a project investigating novel approaches to target drug-resistant cancer cells using a combination of chemical biology and genomics techniques. Her expertise will complement our existing research strengths and open new avenues for investigation.\n\n"I\'m thrilled to join the Lopus Lab and contribute to their innovative research program," said Dr. Patel. "The lab\'s interdisciplinary approach and collaborative environment make it an ideal place to pursue my research interests in cancer drug resistance."\n\nDr. Patel is the recipient of a prestigious postdoctoral fellowship from the Cancer Research Society, which will support her research for the next two years.',
-    imageSrc: "/placeholder.svg?height=400&width=600",
-  },
+
 ]
 

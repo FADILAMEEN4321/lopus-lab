@@ -20,7 +20,7 @@ export function TeamMemberCard({ name, role, imageSrc, id }: TeamMemberCardProps
     >
       <Link href={`/people/${id}`}>
         <div className="relative h-64 w-full">
-          <Image src={imageSrc || "/placeholder.svg"} alt={name} fill className="object-cover" />
+          <Image src={imageSrc || "/placeholder.svg"} alt={name} fill className="object-cover object-top" />
         </div>
         <div className="p-4 text-center">
           <h3 className="text-lg font-semibold text-gray-900">{name}</h3>

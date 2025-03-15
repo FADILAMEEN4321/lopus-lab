@@ -39,7 +39,8 @@ export default function PublicationsPage() {
             <div className="space-y-8">
               {publicationsByYear[year].map((publication, index) => (
                 <div key={index} className="flex flex-col md:flex-row gap-6 bg-white rounded-lg shadow-md p-2">
-                    <p className="text-gray-700">{publication.title}</p>
+                    {/* <p className="text-gray-700">{publication.title}</p> */}
+                    <p className="text-gray-700" dangerouslySetInnerHTML={{ __html: publication.title }}></p>
                 </div>
               ))}
             </div>

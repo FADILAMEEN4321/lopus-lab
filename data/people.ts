@@ -40,32 +40,6 @@ export const peopleData = [
     ]
   },
 
-  {
-    id: "kimaya-meher",
-    name: "Ms. Kimaya Meher",
-    title: "PhD Student",
-    category: "gratuated/co-guided",
-    email: "",
-    website: "",
-    imageSrc: "/assests/images/people/Kimaya.jpg",
-    bio: [
-      "Kimaya obtained her MSc in Biotechnology from St. Xavier's College, Mumbai.",
-    ],
-    education: [
-
-    ],
-    research: [
-      "Mechanisms of action of natural products in cancer cells",
-      "Green-nanotechnology",
-      "Nanoforumlation of anticancer drugs"
-    ],
-    postionHeld: [
-
-    ],
-    awardAndHonour: [
-  
-    ]
-  },
 
 
   {
@@ -144,6 +118,30 @@ export const peopleData = [
   
     ]
   },
+  {
+    id: "bhavisha-patel",
+    name: "Ms. Bhavisha Patel",
+    title: "PhD Student",
+    category: "gratuated/co-guided",
+    email: "",
+    website: "",
+    imageSrc: "/assests/images/people/BhavishaFormal.jpg",
+    bio: [
+      "Bhavisha obtained her MSc in Life Sciences from the University of Mumbai."
+    ],
+    education: [
+  
+    ],
+    research: [
+      "Investigation of the nature of cell death induced by surface-functionalized metal nanoparticles"
+    ],
+    postionHeld: [
+
+    ],
+    awardAndHonour: [
+  
+    ]
+  },
 
 
   {
@@ -171,7 +169,7 @@ export const peopleData = [
     ]
   },
   {
-    id: "pratyush-pragyandipta ",
+    id: "pratyush-pragyandipta",
     name: "Dr. Pratyush  Pragyandipta ",
     title: "PhD Student",
     category: "gratuated/co-guided",
@@ -196,13 +194,36 @@ export const peopleData = [
   },
 
   {
+    id: "rajesh-kumar-meher",
+    name: "Mr. Rajesh Kumar Meher",
+    title: "PhD",
+    category: "gratuated/co-guided",
+    email: "",
+    website: "",
+    imageSrc: "/assests/images/people/RajeshPhD.jpg",
+    bio: [
+    ],
+    education: [
+  
+    ],
+    research: [
+    ],
+    postionHeld: [
+
+    ],
+    awardAndHonour: [
+  
+    ]
+  },
+
+  {
     id: "grace-nirmala",
     name: "Dr. Grace Nirmala",
     title: "",
     category: "Postdoctoral",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/grace final.jpg",
     bio: [
       
     ],
@@ -227,7 +248,7 @@ export const peopleData = [
     category: "Postdoctoral",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/MadhuraPostdoc.jpg",
     bio: [
       
     ],
@@ -252,7 +273,7 @@ export const peopleData = [
     category: "Postdoctoral",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/sanil.jpg",
     bio: [
       
     ],
@@ -277,7 +298,7 @@ export const peopleData = [
     category: "Postdoctoral",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/Prachi.jpg",
     bio: [
       
     ],
@@ -286,6 +307,33 @@ export const peopleData = [
     ],
     research: [
 
+    ],
+    postionHeld: [
+
+    ],
+    awardAndHonour: [
+  
+    ]
+  },
+
+  {
+    id: "kimaya-meher",
+    name: "Ms. Kimaya Meher",
+    title: "PhD Student",
+    category: "gratuated/co-guided",
+    email: "",
+    website: "",
+    imageSrc: "/assests/images/people/Kimaya.jpg",
+    bio: [
+      "Kimaya obtained her MSc in Biotechnology from St. Xavier's College, Mumbai.",
+    ],
+    education: [
+
+    ],
+    research: [
+      "Mechanisms of action of natural products in cancer cells",
+      "Green-nanotechnology",
+      "Nanoforumlation of anticancer drugs"
     ],
     postionHeld: [
 
