@@ -82,7 +82,7 @@ export default function Home() {
                 </Button>
               </motion.div>
             </div>
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 w-full">
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 whileInView={{ opacity: 1, x: 0 }}

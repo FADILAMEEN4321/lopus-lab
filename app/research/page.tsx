@@ -22,7 +22,7 @@ export default function ResearchPage() {
             key={index}
             className={`flex flex-col ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"} gap-8 items-center`}
           >
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 w-full">
               <div className="relative h-64 w-full lg:h-96 rounded-xl overflow-hidden shadow-lg">
                 <Image
                   src={research.imageSrc || "/placeholder.svg"}
