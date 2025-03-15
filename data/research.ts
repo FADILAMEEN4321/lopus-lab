@@ -35,7 +35,7 @@ export const researchData = [
    
     ],
     applications: [],
-    imageSrc: "/assests/images/botryllus-model-organism-01.jpg",
+    imageSrc: "/assests/images/research/nano-particle.jpg",
   },
   {
     title: "Mechanistic studies of drug action in cancer cells",
@@ -48,7 +48,7 @@ export const researchData = [
     applications: [
      
     ],
-    imageSrc: "/assests/images/allorecognition-immunity-01.jpg",
+    imageSrc: "/assests/images/research/cancer-cell.jpg",
   },
 ]
 

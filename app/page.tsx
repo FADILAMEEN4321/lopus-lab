@@ -15,9 +15,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="relative w-full h-[80vh] bg-gradient-to-r from-teal-900 to-blue-900 overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+      
+
+        <div className="absolute inset-0 opacity-30">
           <Image
-            src={"/assests/images/hero-1.jpg"}
+            src={"/assests/images/hero-5.jpg"}
             alt="Lab background"
             fill
             className="object-cover"
@@ -27,10 +29,10 @@ export default function Home() {
         <div className="container relative z-10 flex flex-col items-start justify-center h-full px-4 py-16 mx-auto text-white">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <Image
-                          src={"/assests/images/logo.png"}
+                          src={"/assests/images/logo-trans.jpg"}
                           alt="logo"
-                          width={170}
-                          height={170}
+                          width={175}
+                          height={175}
                           className="mb-6"
                         />
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Lopus Lab</h1>

@@ -30,7 +30,7 @@ export function Navbar() {
   <Link href="/" className="flex items-center">
   <div className="mr-2 w-16 h-16 md:w-18 md:h-18 relative">
   <Image
-    src="/assests/images/logo.png"
+    src="/assests/images/logo-trans.jpg"
     alt="logo"
     fill
     className="object-contain"

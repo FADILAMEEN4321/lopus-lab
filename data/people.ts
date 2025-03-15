@@ -6,7 +6,7 @@ export const peopleData = [
     category: "faculty",
     email: "manu.lopus@cbs.ac.in",
     website: "https://example.com/manu-lopus",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/MLabcoat.jpg",
     bio: [
       "Dr. Manu Lopus is a Reader in Biology at the School of Biological Sciences, UM-DAE Centre for Excellence in Basic Sciences, Mumbai. Dr. Lopus earned his PhD in Biotechnology from Indian Institute of Technology Bombay where he studied the mechanistic details of tubulin-targeted anticancer molecules. As an NIH Postdoctoral Fellow at the University of California Santa Barbara, his studies shed light on the regulation of microtubule dynamics by plus-end-interacting proteins and potent anticancer drugs. His major research areas are mechanistic and efficacy studies of design-optimized nanotherapeutics, and molecular mechanisms involved in non-apoptotic cell death. Dr. Lopus is an Editorial Board Member of Oncology Letters and Molecular Medicine Reports, an elected Fellow of the Royal Society of Biology (2021), the Royal Society of Chemistry (2022), the Maharashtra Academy of Sciences (2022), and a Life Member of the National Academy of Sciences, India (since 2017). He has been actively involved in teaching undergraduate and postgraduate courses, guiding PhD students and postdoctoral fellows, communicating science through popular articles and lectures, and organizing scientific seminars and colloquia.",
     ],
@@ -47,7 +47,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/Kimaya.jpg",
     bio: [
       "Kimaya obtained her MSc in Biotechnology from St. Xavier's College, Mumbai.",
     ],
@@ -75,7 +75,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/RadhaFormal.jpg",
     bio: [
       "Radha obtained her MSc in Microbiology from St. Xavier's College, Mumbai.",
     ],
@@ -101,7 +101,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/GandharFormal.jpg",
     bio: [
       "Gandhar obtained his MSc in Biotechnology from the Hislop College, Nagpur University.",
     ],
@@ -127,7 +127,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/GarimaFormal.jpg",
     bio: [
       "Garima Obtained  BSc in Life Sciences from Delhi University and MSc in Biotechnology from Siksha O' Anusandhan  University, Odisha.",
     ],
@@ -153,7 +153,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/ShrutiStudent.jpg",
     bio: [
       "Thesis: Preclinical Evaluation of Potential Synergistic Effect of Noscapinoids and Taxotere for Breast Cancer Therapy (Co-guided with Prof. Pradeep Naik, Sambalpur University, Odisha)",
     ],
@@ -177,7 +177,7 @@ export const peopleData = [
     category: "gratuated/co-guided",
     email: "",
     website: "",
-    imageSrc: "/placeholder.svg?height=400&width=400",
+    imageSrc: "/assests/images/people/Pratyush_JPG.jpg",
     bio: [
       "Thesis: Development of Noscapine Congeners for the Treatment of Breast Cancer. (Co-guided with Prof. Pradeep Naik, Sambalpur University, Odisha).",
     ],
