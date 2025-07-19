@@ -8,10 +8,10 @@ export const peopleData = [
     website: "https://example.com/manu-lopus",
     imageSrc: "/assests/images/people/MLabcoat.jpg",
     bio: [
-      "Dr. Manu Lopus is a Associate Professor of Biology at the School of Biological Sciences, UM-DAE Centre for Excellence in Basic Sciences, Mumbai. Dr. Lopus earned his PhD in Biotechnology from Indian Institute of Technology Bombay where he studied the mechanistic details of tubulin-targeted anticancer molecules. As an NIH Postdoctoral Fellow at the University of California Santa Barbara, his studies shed light on the regulation of microtubule dynamics by plus-end-interacting proteins and potent anticancer drugs. His major research areas are mechanistic and efficacy studies of design-optimized nanotherapeutics, and molecular mechanisms involved in non-apoptotic cell death. Dr. Lopus is an Editorial Board Member of Oncology Letters and Molecular Medicine Reports, an elected Fellow of the Royal Society of Biology (2021), the Royal Society of Chemistry (2022), the Maharashtra Academy of Sciences (2022), and a Life Member of the National Academy of Sciences, India (since 2017). He has been actively involved in teaching undergraduate and postgraduate courses, guiding PhD students and postdoctoral fellows, communicating science through popular articles and lectures, and organizing scientific seminars and colloquia.",
+      "Dr. Manu Lopus is an Associate Professor of Biology at the School of Biological Sciences, UM-DAE Centre for Excellence in Basic Sciences, Mumbai. Dr. Lopus earned his PhD in Biotechnology from Indian Institute of Technology Bombay where he studied the mechanistic details of tubulin-targeted anticancer molecules. As an NIH Postdoctoral Fellow at the University of California, Santa Barbara, his studies shed light on the regulation of microtubule dynamics by plus-end-interacting proteins and potent anticancer drugs. His major research areas are mechanistic and efficacy studies of design-optimized nanotherapeutics, and molecular mechanisms involved in non-apoptotic cell death. Dr. Lopus is an Editorial Board Member of Oncology Letters and Molecular Medicine Reports, an elected Fellow of the Royal Society of Biology (2021), the Royal Society of Chemistry (2022), the Maharashtra Academy of Sciences (2022), and a Life Member of the National Academy of Sciences, India (since 2017). He has been actively involved in teaching undergraduate and postgraduate courses, guiding PhD students and postdoctoral fellows, communicating science through popular articles and lectures, and organizing scientific seminars and colloquia.",
     ],
     education: [
-      "Ph.D. (Biotechnology), Indian Institute of Technology Bombay (2007)",
+      "Ph.D. (Biotechnology), Indian Institute of Technology, Bombay (2007)",
       "M.Sc. (Zoology), St. Berchmans’ College, Mahatma Gandhi University, Kerala (2000)",
       "B.Sc. (Zoology), St. Berchmans’ College, Mahatma Gandhi University, Kerala (1998)"
     ],
@@ -22,7 +22,7 @@ export const peopleData = [
       "Mechanistic studies of drug action in cancer cells",
     ],
     postionHeld: [
-      "Associate Professor, UM-DAE Centre for Excellence in Basic Sciences, Mumbai (2025-)",
+      "Associate Professor, UM-DAE Centre for Excellence in Basic Sciences, Mumbai (2025-present)",
       "Reader, UM-DAE Centre for Excellence in Basic Sciences, Mumbai (2016-2024)",
       "Visiting Scientist II, UM-DAE Centre for Excellence in Basic Sciences, Mumbai (2013 –2016)",
       "Scientist II, University of California, Santa Barbara (2011 – 2013)",
@@ -77,7 +77,7 @@ export const peopleData = [
     website: "",
     imageSrc: "/assests/images/people/GandharFormal.jpg",
     bio: [
-      "Gandhar obtained his MSc in Biotechnology from the Hislop College, Nagpur University.",
+      "Gandhar obtained his MSc in Biotechnology from the Hislop College, Nagpur University. He qualified GATE BT 2022 (AIR 660).",
     ],
     education: [
   
@@ -97,13 +97,13 @@ export const peopleData = [
   {
     id: "garima-gehlot",
     name: "Ms. Garima Gehlot",
-    title: "Senior Research Fellow",
+    title: "Junior Research Fellow",
     category: "gratuated/co-guided",
     email: "",
     website: "",
     imageSrc: "/assests/images/people/GarimaFormal.jpg",
     bio: [
-      "Garima Obtained  BSc in Life Sciences from Delhi University and MSc in Biotechnology from Siksha O' Anusandhan  University, Odisha.",
+      "Garima obtained her BSc in Life Sciences from Kirorimal College, University of Delhi and MSc in Biotechnology from Siksha ‘O' Anusandhan University, Odisha. She qualified GATE XL 2023 (AIR 33 ).",
     ],
     education: [
   

@@ -34,6 +34,7 @@ export default function PeoplePage() {
               role={person.title}
               imageSrc={person.imageSrc}
               id={person.id}
+              isClickable={person.bio && person.bio.length > 0}
             />
           ))}
         </div>
@@ -51,6 +52,7 @@ export default function PeoplePage() {
                 role={person.title}
                 imageSrc={person.imageSrc}
                 id={person.id}
+                isClickable={person.bio && person.bio.length > 0}
               />
             ))}
           </div>
@@ -69,6 +71,7 @@ export default function PeoplePage() {
                 role={person.title}
                 imageSrc={person.imageSrc}
                 id={person.id}
+                isClickable={person.bio && person.bio.length > 0}
               />
             ))}
           </div>
@@ -77,12 +80,12 @@ export default function PeoplePage() {
 
       {/* Masters Students */}
       
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Project Students</h2>
           <div className="">
-            <p className="text-lg font-semibold text-gray-900">Samridhi, Anisha, Bhadra, Greeshma</p>
+            <p className="text-lg font-semibold text-gray-900"></p>
           </div>
-        </section>
+        </section> */}
  
 
       {/* Alumni */}
@@ -91,7 +94,7 @@ export default function PeoplePage() {
           <h2 className="text-2xl font-bold text-gray-900 mb-8 pb-2 border-b">Alumni</h2>
           <div className="">
            
-          <p className="text-lg font-semibold text-gray-900">Mushakn Sharma, Rakshita Madammaki, Athira CA, Ananya Sachdev, Swati Sudipta, Mr. Prasad Mohite, Ms Akansha Shah,  Ms. Shefali Gedam, Dr Grace Nirmala, Mr Sujith Remulla, Mr Mohammed Nisham,  Ms Ankita Gupta, Mr Ashish Beck, Ms. Nayana Nambiar, Ms. Tejashree Mahaddalkar, Dr. Sanith C, Dr. Madhura Pradhan, Mr. Abhishek Howlader,  Mr. Swagat Pradhan, Ms. Neha Mohanpuria, Mr. Chaitanya Krishna, Ms. Sailee Lavekar</p>
+          <p className="text-lg font-semibold text-gray-900">Muskan Sharma, Rakshita Madammaki, Athira CA, Ananya Sachdev, Swati Sudipta, Mr. Prasad Mohite, Ms Akansha Shah,  Ms. Shefali Gedam, Dr Grace Nirmala, Mr Sujith Remulla, Mr Mohammed Nisham,  Ms Ankita Gupta, Mr Ashish Beck, Ms. Nayana Nambiar, Ms. Tejashree Mahaddalkar, Dr. Sanith C, Dr. Madhura Pradhan, Mr. Abhishek Howlader,  Mr. Swagat Pradhan, Ms. Neha Mohanpuria, Mr. Chaitanya Krishna, Ms. Sailee Lavekar, Samridhi, Anisha, Bhadra, Greeshma, Anshuman Singh, Soumita Das, Rejuli Godak</p>
 
           </div>
         </section>
