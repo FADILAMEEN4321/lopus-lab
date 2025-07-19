@@ -68,7 +68,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-teal-500" />
-                <span>School of Biological Sciences, UM-DAE CEBS, Kalina, Santacruz East, Mumbai - 400098</span>
+                <span>School of Biological Sciences, University of Mumbai, UM-DAE CEBS, Kalina, Santacruz East, Mumbai - 400098</span>
               </li>
               {/* <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-teal-500" />
