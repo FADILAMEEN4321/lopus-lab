@@ -8,7 +8,7 @@ export const peopleData = [
     website: "https://example.com/manu-lopus",
     imageSrc: "/assests/images/people/MLabcoat.jpg",
     bio: [
-      "Dr. Manu Lopus is a Reader in Biology at the School of Biological Sciences, UM-DAE Centre for Excellence in Basic Sciences, Mumbai. Dr. Lopus earned his PhD in Biotechnology from Indian Institute of Technology Bombay where he studied the mechanistic details of tubulin-targeted anticancer molecules. As an NIH Postdoctoral Fellow at the University of California Santa Barbara, his studies shed light on the regulation of microtubule dynamics by plus-end-interacting proteins and potent anticancer drugs. His major research areas are mechanistic and efficacy studies of design-optimized nanotherapeutics, and molecular mechanisms involved in non-apoptotic cell death. Dr. Lopus is an Editorial Board Member of Oncology Letters and Molecular Medicine Reports, an elected Fellow of the Royal Society of Biology (2021), the Royal Society of Chemistry (2022), the Maharashtra Academy of Sciences (2022), and a Life Member of the National Academy of Sciences, India (since 2017). He has been actively involved in teaching undergraduate and postgraduate courses, guiding PhD students and postdoctoral fellows, communicating science through popular articles and lectures, and organizing scientific seminars and colloquia.",
+      "Dr. Manu Lopus is a Associate Professor of Biology at the School of Biological Sciences, UM-DAE Centre for Excellence in Basic Sciences, Mumbai. Dr. Lopus earned his PhD in Biotechnology from Indian Institute of Technology Bombay where he studied the mechanistic details of tubulin-targeted anticancer molecules. As an NIH Postdoctoral Fellow at the University of California Santa Barbara, his studies shed light on the regulation of microtubule dynamics by plus-end-interacting proteins and potent anticancer drugs. His major research areas are mechanistic and efficacy studies of design-optimized nanotherapeutics, and molecular mechanisms involved in non-apoptotic cell death. Dr. Lopus is an Editorial Board Member of Oncology Letters and Molecular Medicine Reports, an elected Fellow of the Royal Society of Biology (2021), the Royal Society of Chemistry (2022), the Maharashtra Academy of Sciences (2022), and a Life Member of the National Academy of Sciences, India (since 2017). He has been actively involved in teaching undergraduate and postgraduate courses, guiding PhD students and postdoctoral fellows, communicating science through popular articles and lectures, and organizing scientific seminars and colloquia.",
     ],
     education: [
       "Ph.D. (Biotechnology), Indian Institute of Technology Bombay (2007)",
@@ -44,8 +44,8 @@ export const peopleData = [
 
   {
     id: "g-radha",
-    name: "Ms. G Radha",
-    title: "PhD Student",
+    name: "Dr. G Radha",
+    title: "PhD",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -71,7 +71,7 @@ export const peopleData = [
   {
     id: "gandhar-pusalkar",
     name: "Mr. Gandhar Pusalkar",
-    title: "PhD Student",
+    title: "Senior Research Fellow",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -97,7 +97,7 @@ export const peopleData = [
   {
     id: "garima-gehlot",
     name: "Ms. Garima Gehlot",
-    title: "PhD Student",
+    title: "Senior Research Fellow",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -121,7 +121,7 @@ export const peopleData = [
   {
     id: "bhavisha-patel",
     name: "Ms. Bhavisha Patel",
-    title: "PhD Student",
+    title: "Senior Research Fellow",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -147,7 +147,7 @@ export const peopleData = [
   {
     id: "shruti-gamya-dash",
     name: "Dr. Shruti Gamya Dash",
-    title: "PhD",
+    title: "PhD(Co-guided)",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -171,7 +171,7 @@ export const peopleData = [
   {
     id: "pratyush-pragyandipta",
     name: "Dr. Pratyush  Pragyandipta ",
-    title: "PhD Student",
+    title: "PhD(Co-guided)",
     category: "gratuated/co-guided",
     email: "",
     website: "",
@@ -195,7 +195,7 @@ export const peopleData = [
 
   {
     id: "rajesh-kumar-meher",
-    name: "Mr. Rajesh Kumar Meher",
+    name: "Dr. Rajesh Kumar Meher",
     title: "PhD",
     category: "gratuated/co-guided",
     email: "",
@@ -318,8 +318,8 @@ export const peopleData = [
 
   {
     id: "kimaya-meher",
-    name: "Ms. Kimaya Meher",
-    title: "PhD Student",
+    name: "Dr. Kimaya Meher",
+    title: "PhD",
     category: "gratuated/co-guided",
     email: "",
     website: "",

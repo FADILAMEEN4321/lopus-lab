@@ -28,16 +28,16 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4 mx-auto">
       <div className="flex items-center">
   <Link href="/" className="flex items-center">
-  <div className="mr-2 w-16 h-16 md:w-18 md:h-18 relative">
+  {/* <div className="mr-2 w-16 h-16 md:w-18 md:h-18 relative">
   <Image
     src="/assests/images/logo-trans.jpg"
     alt="logo"
     fill
     className="object-contain"
   />
-</div>
+</div> */}
 
-    <span className="text-2xl md:text-3xl font-bold text-teal-700">Lopus Lab</span>
+    <span className="text-2xl md:text-3xl font-bold text-teal-700">Cellular Nanomedicine & Chemical Biology Lab</span>
   </Link>
 </div>
 

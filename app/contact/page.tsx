@@ -29,6 +29,8 @@ export default function ContactPage() {
                 <p className="text-gray-600">
                 School of Biological Sciences, UM-DAE CEBS,
                   <br />
+                  University of Mumbai,
+                  <br />
                   Kalina, Santacruz East,
                   <br />
                   Mumbai - 400098
@@ -67,7 +69,8 @@ export default function ContactPage() {
         
       </div>
 
-      <div id="open-positions" className="pt-8">
+      {openPositionsData.length > 0 && (
+        <div id="open-positions" className="pt-8">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Open Positions</h2>
 
         {openPositionsData.length > 0 ? (
@@ -105,6 +108,7 @@ export default function ContactPage() {
           </div>
         )}
       </div>
+      )}
     </div>
   )
 }

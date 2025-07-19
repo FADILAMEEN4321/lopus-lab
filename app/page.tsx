@@ -37,7 +37,7 @@ export default function Home() {
                         />
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Lopus Lab</h1>
             <p className="max-w-2xl mt-4 text-xl text-teal-100">
-            Cellular Nanomedicine & Chemical Biology Lab School of Biological Sciences
+            School of Biological Sciences
             </p>
             <p className="max-w-2xl mt-4 text-xl text-teal-100">
             UM-DAE Centre for Excellence in Basic Sciences, Mumbai
@@ -48,9 +48,7 @@ export default function Home() {
                   Explore Our Research <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-teal-600 border-white hover:text-white hover:bg-white/10">
-                <Link href="/contact">Join Our Team</Link>
-              </Button>
+              
             </div>
           </motion.div>
         </div>
