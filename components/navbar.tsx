@@ -25,7 +25,7 @@ export function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
-      <div className="container flex h-16 items-center justify-between px-4 mx-auto">
+      <div className="container flex h-20 md:h-20 items-center justify-between px-4 mx-auto">
       <div className="flex items-center">
   <Link href="/" className="flex items-center">
   {/* <div className="mr-2 w-16 h-16 md:w-18 md:h-18 relative">
@@ -37,7 +37,7 @@ export function Navbar() {
   />
 </div> */}
 
-    <span className="text-2xl md:text-3xl font-bold text-teal-700">Cellular Nanomedicine & Chemical Biology Lab</span>
+    <span className="text-xl md:text-3xl font-bold text-teal-700">Cellular Nanomedicine & Chemical Biology Lab</span>
   </Link>
 </div>
 
@@ -49,7 +49,7 @@ export function Navbar() {
               key={item.href}
               href={item.href}
               className={cn(
-                "text-sm font-medium transition-colors hover:text-teal-700",
+                "text-base font-semibold transition-colors hover:text-teal-700",
                 pathname === item.href ? "text-teal-700" : "text-gray-600",
               )}
             >

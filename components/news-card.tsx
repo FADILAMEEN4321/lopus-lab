@@ -18,11 +18,11 @@ export function NewsCard({ title, date, excerpt, imageSrc }: NewsCardProps) {
   <motion.div
     whileHover={{ y: -5 }}
     transition={{ duration: 0.2 }}
-    className="bg-white rounded-lg shadow-md overflow-hidden h-[400px] flex flex-col"
+    className="bg-white rounded-lg shadow-md overflow-hidden h-[230px] flex flex-col"
   >
-    <div className="relative h-48">
+    {/* <div className="relative h-48">
       <Image src={imageSrc || "/placeholder.svg"} alt={title} fill className="object-cover" />
-    </div>
+    </div> */}
     <div className="p-6 flex-1 flex flex-col justify-between">
       <div>
         <div className="flex items-center text-gray-500 mb-2">

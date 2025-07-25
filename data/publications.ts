@@ -1,4 +1,17 @@
 export const publicationsData = [
+
+  {
+    title: "A Jain, M Lopus, N Kishore (2025) From Self-Assembly to Drug Delivery: Understanding and Exploring Protein Fibrils. Langmuir (IF: 3.7)",
+    year: "2025",
+    imageSrc: "/placeholder.svg?height=300&width=500",
+  },
+  {
+    title: "A Kostyusheva, E Romano, N Yan, M Lopus, AA Zamyatnin Jr, A Parodi (2025) Breaking barriers in targeted Therapy: Advancing exosome Isolation, Engineering, and imaging. Advanced Drug Delivery Reviews (IF:15.2)",
+    year: "2025",
+    imageSrc: "/placeholder.svg?height=300&width=500",
+  },
+
+
   {
     title: "Radha G, Pragyandipta P, Naik PK, and <strong>Lopus M*</strong>  (2024) The mode of action of sorafenib in MDA-MB-231 breast carcinoma cells involves components of apoptotic, necroptotic and autophagy-dependent cell death pathways. Exp Cell Res. 443(1):114313 (IF: 3.7)",
     year: "2024",

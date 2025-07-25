@@ -36,10 +36,10 @@ export default function Home() {
                           className="mb-6"
                         />
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Lopus Lab</h1>
-            <p className="max-w-2xl mt-4 text-xl text-teal-100">
+            <p className="max-w-2xl mt-4 text-3xl font-semibold">
             School of Biological Sciences
             </p>
-            <p className="max-w-2xl mt-4 text-xl text-teal-100">
+            <p className="max-w-2xl mt-4 text-2xl font-medium text-teal-100">
             UM-DAE Centre for Excellence in Basic Sciences, Mumbai
             </p>
             <div className="flex flex-wrap gap-4 mt-8">
