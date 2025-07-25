@@ -114,7 +114,7 @@ export default function PersonPage({ params }: PersonPageProps) {
               </ul>
             </section>
           )}
-
+          
           {person.research && person.research.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Research Interests</h2>
@@ -123,6 +123,25 @@ export default function PersonPage({ params }: PersonPageProps) {
                   <li key={index}>{item}</li>
                 ))}
               </ul>
+             
+            </section>
+          )}
+
+{person.researchcontent  && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Research</h2>
+              
+              <div
+                className="prose prose-lg max-w-none mt-4 mb-6"
+                dangerouslySetInnerHTML={{ __html: person.researchcontent }}
+              ></div>
+              {person.researchImages && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {person.researchImages.map((image, index) => (
+                    <Image src={image} alt={`Research Image ${index + 1}`} width={600} height={400} />
+                  ))}
+                </div>
+              )}
             </section>
           )}
 
