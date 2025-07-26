@@ -24,7 +24,7 @@ export const researchData = [
     applications: [
 
     ],
-    imageSrc: "/assests/images/allorecognition-immunity-01.jpg",
+    imageSrc: "/assests/images/allorecognition-immunity-01.png",
   },
   {
     title: "Nanoparticles-mediated sensitization of cancer cells for therapeutic efficacy",
